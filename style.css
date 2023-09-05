@@ -293,4 +293,55 @@ hr {
     border-radius: 15px;
 }
 
+/* ----- AREAS ATENDIDAS ----- */
+
+.areas {
+    padding: 30px;
+    background-color: #aeafaf56;
+}
+
+.areas-content {
+    display: flex;
+    align-items: center;
+}
+
+.areas-txt {
+    flex-basis: 100%;
+    padding-right: 35px;
+}
+
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #01c1fc;
+}
+
+.logospan {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 35px;
+    color: #202020;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr {
+    border: 1px solid rgb #01c1fc;
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.areas-img {
+    flex-basis: 50%;
+}
+
+.areas-img img {
+    border-radius: 15px;
+}
+
+
 
