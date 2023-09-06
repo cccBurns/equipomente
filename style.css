@@ -129,6 +129,10 @@ p {
     );
 }
 
+.btn-1:hover {
+    color: #292929;
+}
+
 /* ----- ABOUT ----- */
 
 .about {
@@ -194,6 +198,7 @@ hr {
 .nosotros-txt {
     flex-basis: 90%;
     padding-right: 35px;
+    
 }
 
 span {
