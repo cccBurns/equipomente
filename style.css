@@ -27,6 +27,8 @@ img {
     margin: 0 auto;
 }
 
+/* ----- HEADER ----- */
+
 .header {
     background: linear-gradient(
         rgba(29,30,35,0.4),
@@ -111,8 +113,8 @@ img {
     text-transform: uppercase;
 }
 
-p {
-    font-size: 17px;
+.header-txt p {
+    font-size: 20px;
     color: #2c2c2c;
     margin-bottom: 35px;
 }
@@ -121,7 +123,7 @@ p {
     display: inline-block;
     padding: 11px 35px;
     color: #FFFFFF;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     background: linear-gradient(
         90deg,
         #3451f5 0%,
@@ -130,57 +132,10 @@ p {
 }
 
 .btn-1:hover {
-    color: #292929;
-}
-
-/* ----- ABOUT ----- */
-
-.about {
-    padding: 30px;
-    background-color: #aeafaf56;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-}
-
-.about-txt {
-    flex-basis: 50%;
-    padding-right: 35px;
-}
-
-span {
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #01c1fc;
-}
-
-.logospan {
-    font-size: 35px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-h2 {
-    font-size: 35px;
-    color: #202020;
-    margin: 15px 0;
-    line-height: 1;
-}
-
-hr {
-    border: 1px solid rgb #01c1fc;
-    width: 10%;
-    margin-bottom: 30px;
-}
-
-.about-img {
-    flex-basis: 50%;
-}
-
-.about-img img {
-    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    transition: 1s;
+    color: #141414;
 }
 
 /* ----- NOSOTROS ----- */
@@ -319,6 +274,10 @@ hr {
     padding: 20px;
 }
 
+.blog-txt span {
+    font-size: 15px;
+}
+
 .blog-txt h3 {
     color: #242424;
     font-size: 18px;
@@ -352,23 +311,6 @@ p {
     margin-bottom: 35px;
 }
 
-.btn-1 {
-    display: inline-block;
-    padding: 11px 35px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    background: linear-gradient(
-        90deg,
-        #3451f5 0%,
-        #01c1fc 100%
-    );
-}
-
-.btn-1:hover {
-    color: #292929;
-}
-
-
 /* ----- CONTACTO ----- */
 
 /* FORMULARIO */
@@ -392,22 +334,6 @@ label {
     color: #333333;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;   
-}
-
-.btn-1 {
-    display: inline-block;
-    padding: 11px 35px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    background: linear-gradient(
-        90deg,
-        #3451f5 0%,
-        #01c1fc 100%
-    );
-}
-
-.btn-1:hover {
-    color: #292929;
 }
 
 .formulario{
@@ -584,6 +510,8 @@ hr {
 
 /* ----- RESPONSIVE ----- */
 
+/* ----- HEADER ----- */
+
 @media (max-width: 991px) {
 
     .menu {
@@ -617,7 +545,7 @@ hr {
 
     .header {
         min-height: 0vh;
-        padding: 100px 30px; 
+        padding: 134px 30px; 
     }
 
     .header-txt {
@@ -625,15 +553,19 @@ hr {
         padding: 0;
     }
 
-    /* ----- ABOUT ----- */
+    /* ----- BLOG ----- */
 
-    .about {
+    .blog {
         padding: 30px;
     }
 
-    .about-content {
+    .blog-content {
         flex-direction: column;
     }
+
+    .blog-1 {
+        margin-bottom: 30px;
+    }   
 
     /* ----- NOSOTROS ----- */
 
@@ -652,6 +584,43 @@ hr {
     }
 
     .areas-content {
+        flex-direction: column;
+    }
+
+    /* ----- PRENSA Y DIFUSION ----- */
+
+    .prensa {
+        min-height: 0vh;
+        padding: 100px 30px; 
+    }
+
+    .prensa-txt {
+        text-align: center;
+        padding: 0;
+    }
+
+    .prensa-txt .youtube {
+        width: 80%;        
+        text-align: center;
+    }
+
+    /* ----- CONTACTO ----- */
+
+    .formulario {
+        min-height: 0vh;
+        padding: 100px 30px; 
+    }
+
+    .formulario-txt {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contacto {
+        padding: 30px;
+    }
+
+    .contacto-content {
         flex-direction: column;
     }
 
