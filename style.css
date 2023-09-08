@@ -373,17 +373,95 @@ p {
 
 /* FORMULARIO */
 
+label {
+    font-size: 25px;
+}
+.formulario {
+    background-color: #d3d3d356;
+}
+
+.formulario-txt {
+    text-align: center;
+    padding: 0 200px;
+}
+
+.formulario-txt h2 {    
+    padding: 25px;
+    font-size: 35px;
+    line-height: 1;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;   
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,
+        #3451f5 0%,
+        #01c1fc 100%
+    );
+}
+
+.btn-1:hover {
+    color: #292929;
+}
+
+.formulario{
+    padding: 50px;
+
+}
+
+.input-formulario label{
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.input-formulario input{
+    padding: 12px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.input-formulario input, .input-formulario textarea{
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+}
+
+.input-formulario textarea{
+    resize: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-formulario input[type="submit"]{
+    width: auto;
+    padding: 10px 30px;
+    transition: background-color .3s ease-in-out;
+}
+
+.input-formulario input[type="submit"]:hover{
+    background-color: #FFFFFF;
+    color: #01c1fc;
+}
 
 
 /* CONTACTO */
 
 .contacto2 {
     padding: 30px;
+    background-color: #dbdbdb;
 }
 
 .contacto {
     padding: 30px;
-    background-color: #aeafaf56;
+    background-color: #d3d3d356;
 }
 
 .contacto-content {
