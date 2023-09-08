@@ -369,6 +369,71 @@ p {
 }
 
 
+/* ----- CONTACTO ----- */
+
+/* FORMULARIO */
+
+
+
+/* CONTACTO */
+
+.contacto2 {
+    padding: 30px;
+}
+
+.contacto {
+    padding: 30px;
+    background-color: #aeafaf56;
+}
+
+.contacto-content {
+    display: flex;
+    align-items: center;
+}
+
+.contacto-txt {
+    flex-basis: 50%;
+    padding-right: 35px;
+}
+
+.contacto-txt img {
+    width: 30%;
+}
+
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #01c1fc;
+}
+
+.logospan {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 35px;
+    color: #202020;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr {
+    border: 1px solid rgb #01c1fc;
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.contacto-img {
+    flex-basis: 50%;
+}
+
+.contacto-img img {
+    border-radius: 15px;
+}
+
+
 /* ----- FOOTER ----- */
 
 .footer {
